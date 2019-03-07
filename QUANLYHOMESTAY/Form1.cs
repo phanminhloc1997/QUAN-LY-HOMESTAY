@@ -15,5 +15,8 @@ namespace QUANLYHOMESTAY
         {
             InitializeComponent();
         }
+
+       
+        
     }
 }
