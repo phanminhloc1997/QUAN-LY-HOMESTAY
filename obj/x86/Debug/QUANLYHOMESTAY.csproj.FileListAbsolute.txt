@@ -1,0 +1,8 @@
+C:\Users\Welcome\Desktop\QUAN-LY-HOMESTAY\obj\x86\Debug\QUANLYHOMESTAY.csprojResolveAssemblyReference.cache
+C:\Users\Welcome\Desktop\QUAN-LY-HOMESTAY\obj\x86\Debug\QUANLYHOMESTAY.Form1.resources
+C:\Users\Welcome\Desktop\QUAN-LY-HOMESTAY\obj\x86\Debug\QUANLYHOMESTAY.Properties.Resources.resources
+C:\Users\Welcome\Desktop\QUAN-LY-HOMESTAY\obj\x86\Debug\QUANLYHOMESTAY.csproj.GenerateResource.Cache
+C:\Users\Welcome\Desktop\QUAN-LY-HOMESTAY\bin\Debug\QUANLYHOMESTAY.exe
+C:\Users\Welcome\Desktop\QUAN-LY-HOMESTAY\bin\Debug\QUANLYHOMESTAY.pdb
+C:\Users\Welcome\Desktop\QUAN-LY-HOMESTAY\obj\x86\Debug\QUANLYHOMESTAY.exe
+C:\Users\Welcome\Desktop\QUAN-LY-HOMESTAY\obj\x86\Debug\QUANLYHOMESTAY.pdb
