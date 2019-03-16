@@ -152,7 +152,7 @@
             this.listBox1.ItemHeight = 15;
             this.listBox1.Location = new System.Drawing.Point(134, 159);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(139, 15);
+            this.listBox1.Size = new System.Drawing.Size(139, 19);
             this.listBox1.TabIndex = 6;
             // 
             // groupBox1
@@ -263,6 +263,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "QUAN LY HOMESTAY";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
