@@ -2,9 +2,9 @@ bin
 obj
 *.vs
 *.resx
-*.suo
 *.cd
 *.sql
 *.sqlsuo
 *.ssmssln
+*.suo
 
