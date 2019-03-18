@@ -4,4 +4,7 @@ obj
 *.resx
 *.suo
 *.cd
+*.sql
+*.sqlsuo
+*.ssmssln
 
