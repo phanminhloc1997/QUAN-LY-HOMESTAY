@@ -6,3 +6,5 @@ C:\Users\Welcome\Desktop\QUAN-LY-HOMESTAY\bin\Debug\QUANLYHOMESTAY.exe
 C:\Users\Welcome\Desktop\QUAN-LY-HOMESTAY\bin\Debug\QUANLYHOMESTAY.pdb
 C:\Users\Welcome\Desktop\QUAN-LY-HOMESTAY\obj\x86\Debug\QUANLYHOMESTAY.exe
 C:\Users\Welcome\Desktop\QUAN-LY-HOMESTAY\obj\x86\Debug\QUANLYHOMESTAY.pdb
+C:\Users\Welcome\Desktop\QUAN-LY-HOMESTAY\obj\x86\Debug\QUANLYHOMESTAY.frmDangKy.resources
+C:\Users\Welcome\Desktop\QUAN-LY-HOMESTAY\obj\x86\Debug\QUANLYHOMESTAY.frmDangNhap.resources

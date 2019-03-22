@@ -7,4 +7,6 @@ obj
 *.sqlsuo
 *.ssmssln
 *.suo
+*.cs
+
 

@@ -17,6 +17,13 @@ namespace QUANLYHOMESTAY
             InitializeComponent();
         }
 
+        private void btDN_Click(object sender, EventArgs e)
+        {
+
+            frmDangNhap dn = new frmDangNhap();
+            dn.ShowDialog();
+        }
+
         private void KetNoi()
         {
             try
