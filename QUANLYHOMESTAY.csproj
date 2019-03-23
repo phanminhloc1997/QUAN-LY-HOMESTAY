@@ -65,6 +65,7 @@
     <Compile Include="frmDangNhap.Designer.cs">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDN.cs" />
     <Compile Include="KiemTraDangNhap.cs" />
     <Compile Include="KiemTraNgayThang.cs" />
     <Compile Include="Program.cs" />

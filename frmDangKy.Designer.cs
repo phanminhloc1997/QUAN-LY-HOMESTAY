@@ -34,10 +34,10 @@
             this.txtMatKhau = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtXNMK = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.NgaySinh = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.txtDiaChi = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.GioiTinh = new System.Windows.Forms.Label();
             this.btDangKy = new System.Windows.Forms.Button();
             this.cbDate = new System.Windows.Forms.ComboBox();
             this.cbMonth = new System.Windows.Forms.ComboBox();
@@ -79,6 +79,7 @@
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.Size = new System.Drawing.Size(100, 22);
             this.txtMatKhau.TabIndex = 1;
+            this.txtMatKhau.UseSystemPasswordChar = true;
             // 
             // label3
             // 
@@ -95,15 +96,16 @@
             this.txtXNMK.Name = "txtXNMK";
             this.txtXNMK.Size = new System.Drawing.Size(100, 22);
             this.txtXNMK.TabIndex = 1;
+            this.txtXNMK.UseSystemPasswordChar = true;
             // 
-            // label4
+            // NgaySinh
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(28, 202);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 16);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Ngày sinh";
+            this.NgaySinh.AutoSize = true;
+            this.NgaySinh.Location = new System.Drawing.Point(28, 202);
+            this.NgaySinh.Name = "NgaySinh";
+            this.NgaySinh.Size = new System.Drawing.Size(68, 16);
+            this.NgaySinh.TabIndex = 0;
+            this.NgaySinh.Text = "Ngày sinh";
             // 
             // label5
             // 
@@ -121,14 +123,14 @@
             this.txtDiaChi.Size = new System.Drawing.Size(321, 22);
             this.txtDiaChi.TabIndex = 1;
             // 
-            // label6
+            // GioiTinh
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(28, 253);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(61, 16);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Giới Tính";
+            this.GioiTinh.AutoSize = true;
+            this.GioiTinh.Location = new System.Drawing.Point(28, 253);
+            this.GioiTinh.Name = "GioiTinh";
+            this.GioiTinh.Size = new System.Drawing.Size(61, 16);
+            this.GioiTinh.TabIndex = 0;
+            this.GioiTinh.Text = "Giới Tính";
             // 
             // btDangKy
             // 
@@ -145,24 +147,27 @@
             this.cbDate.FormattingEnabled = true;
             this.cbDate.Location = new System.Drawing.Point(134, 199);
             this.cbDate.Name = "cbDate";
-            this.cbDate.Size = new System.Drawing.Size(46, 24);
+            this.cbDate.Size = new System.Drawing.Size(61, 24);
             this.cbDate.TabIndex = 5;
+            this.cbDate.Text = "Day";
             // 
             // cbMonth
             // 
             this.cbMonth.FormattingEnabled = true;
-            this.cbMonth.Location = new System.Drawing.Point(203, 199);
+            this.cbMonth.Location = new System.Drawing.Point(217, 199);
             this.cbMonth.Name = "cbMonth";
-            this.cbMonth.Size = new System.Drawing.Size(51, 24);
+            this.cbMonth.Size = new System.Drawing.Size(68, 24);
             this.cbMonth.TabIndex = 5;
+            this.cbMonth.Text = "Month";
             // 
             // cbYear
             // 
             this.cbYear.FormattingEnabled = true;
-            this.cbYear.Location = new System.Drawing.Point(274, 199);
+            this.cbYear.Location = new System.Drawing.Point(303, 199);
             this.cbYear.Name = "cbYear";
-            this.cbYear.Size = new System.Drawing.Size(71, 24);
+            this.cbYear.Size = new System.Drawing.Size(92, 24);
             this.cbYear.TabIndex = 5;
+            this.cbYear.Text = "Year";
             // 
             // rdNam
             // 
@@ -215,9 +220,9 @@
             this.Controls.Add(this.cbDate);
             this.Controls.Add(this.btDangKy);
             this.Controls.Add(this.txtDiaChi);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.GioiTinh);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.NgaySinh);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtXNMK);
@@ -245,10 +250,10 @@
         private System.Windows.Forms.TextBox txtMatKhau;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtXNMK;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label NgaySinh;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtDiaChi;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label GioiTinh;
         private System.Windows.Forms.Button btDangKy;
         private System.Windows.Forms.ComboBox cbDate;
         private System.Windows.Forms.ComboBox cbMonth;

@@ -8,21 +8,17 @@ using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
+
 namespace QUANLYHOMESTAY
 {
     public partial class Form1 : Form
     {
+        
         public Form1()
         {
             InitializeComponent();
         }
-
-        private void btDN_Click(object sender, EventArgs e)
-        {
-
-            frmDangNhap dn = new frmDangNhap();
-            dn.ShowDialog();
-        }
+       
 
         private void KetNoi()
         {
@@ -52,6 +48,8 @@ namespace QUANLYHOMESTAY
         private void Form1_Load(object sender, EventArgs e)
         {
             KetNoi();
+            frmDangNhap frmDN = new frmDangNhap();
+            frmDN.Show();
         }
 
         int index;

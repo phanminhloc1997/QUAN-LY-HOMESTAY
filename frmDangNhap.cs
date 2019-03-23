@@ -34,7 +34,7 @@ namespace QUANLYHOMESTAY
             }
             else
             {
-                lblThongBao.Text = "Sai Password hoac Username. Check lai lan nua !!!";
+                lblThongBao.Text = "Sai Tên Người Dùng hoặc Mật Khẩu. Vui lòng thử lại !!!";
                 txtTenDN.Clear();
                 txtMK.Clear();
             }

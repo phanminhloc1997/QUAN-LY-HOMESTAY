@@ -41,23 +41,23 @@ namespace QUANLYHOMESTAY
                 if (n.KiemTraHopLe(cbDate, cbMonth, cbYear) == 1)
                 {
                     acc = new AccessData();
-                    string gender = ""; // Tạo biến gender => Để chứa giá trị Male hoặc Female
-                    string birth = ""; // Tạo biến birth => Để chứa ngày tháng năm sinh (12/12/1900)
+                    string GioiTinh = ""; // Tạo biến gender => Để chứa giá trị Male hoặc Female
+                    string NgaySinh = ""; // Tạo biến birth => Để chứa ngày tháng năm sinh (12/12/1900)
                     if (this.rdNam.Checked == true)
                     {
-                        gender = "Nam"; // Nếu RadioButton Male được check => Lưu Male vào gender
+                        GioiTinh = "Nam"; // Nếu RadioButton Male được check => Lưu Male vào gender
                     }
                     else
                     {
                         if (this.rdNu.Checked == true)
                         {
-                            gender = "Nữ"; // Nếu RadioButton Female được check => Lưu Female vào gender
+                            GioiTinh = "Nữ"; // Nếu RadioButton Female được check => Lưu Female vào gender
                         }
                     }
                     // Lấy ngày tháng năm từ ComboBox và lưu vào cho biến birth
-                    birth = cbDate.SelectedItem.ToString() + "/" + cbMonth.SelectedItem.ToString() + "/" + cbYear.SelectedItem.ToString();
+                    NgaySinh = cbDate.SelectedItem.ToString() + "/" + cbMonth.SelectedItem.ToString() + "/" + cbYear.SelectedItem.ToString();
                     //
-                    string sql = "INSERT INTO USER_INFO VALUES('" + txtTenDK.Text + "', '" + txtMatKhau.Text + "', '" + txtXNMK.Text + "', '" + txtEmail.Text + "', '" + txtDiaChi.Text + "', '" + gender + "', '" + birth + "')"; // Query Insert data
+                    string sql = "INSERT INTO bangDangKi VALUES('" + txtTenDK.Text + "', '" + txtMatKhau.Text + "', '" + txtXNMK.Text + "', '" + txtEmail.Text + "', '" + txtDiaChi.Text + "', '" + GioiTinh + "', '" + NgaySinh + "')"; // Query Insert data
                     acc.ExcuteNonQuery(sql); // Thực thi Query
                     MessageBox.Show("Đăng Ký Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information); // Nếu đang ký thành công => Sẽ có thông báo Thành Công và đồng thời các TextBox sẽ mất giá trị do [B]ClearTextBox()[/B].
                     ClearTextBox();

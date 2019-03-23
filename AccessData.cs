@@ -5,6 +5,7 @@ using System.Text;
 using System.Data;
 using System.Data.SqlClient;
 
+
 namespace QUANLYHOMESTAY
 {
     class AccessData
@@ -26,11 +27,14 @@ namespace QUANLYHOMESTAY
 
         public SqlDataReader ExecuteReader(string sql)
         {
+
             SqlConnection conn = GetConnection();
             conn.Open();
             SqlCommand cmd = new SqlCommand(sql, conn);
             SqlDataReader reader = cmd.ExecuteReader();
             return reader;
         }
+
+     
     }
 }

@@ -13,7 +13,7 @@ namespace QUANLYHOMESTAY
         public int CheckLogin(string username, string password)
         {
             AccessData acc = new AccessData();
-            SqlDataReader reader = acc.ExecuteReader("SELECT USERNAME, PASSWORD FROM USER_INFO");
+            SqlDataReader reader = acc.ExecuteReader("SELECT TenNguoiDung, MatKhau FROM bangDangNhap");
             while (reader.Read())
             {
                 if (reader[0].ToString() == username && reader[1].ToString() == password)
