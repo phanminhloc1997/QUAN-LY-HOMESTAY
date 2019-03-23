@@ -94,12 +94,13 @@
             this.txtMK.Name = "txtMK";
             this.txtMK.Size = new System.Drawing.Size(132, 22);
             this.txtMK.TabIndex = 2;
+            this.txtMK.UseSystemPasswordChar = true;
             // 
             // lblThongBao
             // 
-            this.lblThongBao.Location = new System.Drawing.Point(81, 273);
+            this.lblThongBao.Location = new System.Drawing.Point(1, 273);
             this.lblThongBao.Name = "lblThongBao";
-            this.lblThongBao.Size = new System.Drawing.Size(210, 30);
+            this.lblThongBao.Size = new System.Drawing.Size(376, 30);
             this.lblThongBao.TabIndex = 3;
             // 
             // frmDangNhap
